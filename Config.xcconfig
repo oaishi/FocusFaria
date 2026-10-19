@@ -1,0 +1,10 @@
+// Config.xcconfig
+// ---------------------------------------------------------------
+// The ONE thing you should change before running the app.
+//
+// Every app needs a unique ID worldwide. Replace "faria" with something
+// only you would use, e.g. com.fariasmith2026.focus
+// (letters, numbers, dots and dashes only — no spaces).
+// ---------------------------------------------------------------
+
+BUNDLE_ID_PREFIX = com.faria.focus
