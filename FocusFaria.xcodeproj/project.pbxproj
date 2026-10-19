@@ -16,7 +16,7 @@
 		3CF8513F28EA4004A47FC6EA /* ScrollTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72F75B195C080800FAA534E /* ScrollTracker.swift */; };
 		4CEA7BD5C25FDEDC7FF9546E /* NudgeScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB39B79578F247C536A35182 /* NudgeScheduler.swift */; };
 		84755408735D39716F45574B /* TodoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E411199684226DAF79EB2195 /* TodoStore.swift */; };
-		9340A1640EB361E17F127645 /* FariaFocusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCE726A50F3D29000FC63 /* FariaFocusApp.swift */; };
+		9340A1640EB361E17F127645 /* FocusFariaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35DCE726A50F3D29000FC63 /* FocusFariaApp.swift */; };
 		96892BC3997BFE51329121C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641A33A62A1B27DE4539065C /* Assets.xcassets */; };
 		C2A49594226689653F35E511 /* UsageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C268860A08A20623A9804CF /* UsageStore.swift */; };
 		CA3A33854C6C4C3663B9616F /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69EDA09FDD343D9A2280A700 /* Storage.swift */; };
@@ -35,10 +35,10 @@
 		8FB38BA1686D5C70AE43845F /* SetupGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupGuideView.swift; sourceTree = "<group>"; };
 		B1C2D3E4F5061728394A5B6C /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		A72F75B195C080800FAA534E /* ScrollTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTracker.swift; sourceTree = "<group>"; };
-		B0C09776E1DA99CC9B625766 /* FariaFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FariaFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C09776E1DA99CC9B625766 /* FocusFaria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusFaria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB39B79578F247C536A35182 /* NudgeScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NudgeScheduler.swift; sourceTree = "<group>"; };
 		CD52B11262CA8838545B4DB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D35DCE726A50F3D29000FC63 /* FariaFocusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FariaFocusApp.swift; sourceTree = "<group>"; };
+		D35DCE726A50F3D29000FC63 /* FocusFariaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusFariaApp.swift; sourceTree = "<group>"; };
 		E411199684226DAF79EB2195 /* TodoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoStore.swift; sourceTree = "<group>"; };
 		EBEEAFA8D8CCE12D1F63828E /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +57,7 @@
 		2F3A6B1E78F896718625FF06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0C09776E1DA99CC9B625766 /* FariaFocus.app */,
+				B0C09776E1DA99CC9B625766 /* FocusFaria.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,15 +67,15 @@
 			children = (
 				4FF25973EC7250D102E2C3D3 /* README.md */,
 				66DBF29293964E9171899AA9 /* Config.xcconfig */,
-				52C7E7912145FAC87D843FF0 /* FariaFocus */,
+				52C7E7912145FAC87D843FF0 /* FocusFaria */,
 				2F3A6B1E78F896718625FF06 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		52C7E7912145FAC87D843FF0 /* FariaFocus */ = {
+		52C7E7912145FAC87D843FF0 /* FocusFaria */ = {
 			isa = PBXGroup;
 			children = (
-				D35DCE726A50F3D29000FC63 /* FariaFocusApp.swift */,
+				D35DCE726A50F3D29000FC63 /* FocusFariaApp.swift */,
 				CD52B11262CA8838545B4DB1 /* ContentView.swift */,
 				69EDA09FDD343D9A2280A700 /* Storage.swift */,
 				E411199684226DAF79EB2195 /* TodoStore.swift */,
@@ -90,15 +90,15 @@
 				B1C2D3E4F5061728394A5B6C /* WelcomeView.swift */,
 				641A33A62A1B27DE4539065C /* Assets.xcassets */,
 			);
-			path = FariaFocus;
+			path = FocusFaria;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E3435DDA2687639586BF0B70 /* FariaFocus */ = {
+		E3435DDA2687639586BF0B70 /* FocusFaria */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5505F9AF814A7F0992DE2402 /* Build configuration list for PBXNativeTarget "FariaFocus" */;
+			buildConfigurationList = 5505F9AF814A7F0992DE2402 /* Build configuration list for PBXNativeTarget "FocusFaria" */;
 			buildPhases = (
 				E4513FA2498FA40BB7267151 /* Sources */,
 				ACFF4FA0B426F87E965B6940 /* Frameworks */,
@@ -108,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = FariaFocus;
-			productName = FariaFocus;
-			productReference = B0C09776E1DA99CC9B625766 /* FariaFocus.app */;
+			name = FocusFaria;
+			productName = FocusFaria;
+			productReference = B0C09776E1DA99CC9B625766 /* FocusFaria.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7EF2517A8FE63F4681EC5EEA /* Build configuration list for PBXProject "FariaFocus" */;
+			buildConfigurationList = 7EF2517A8FE63F4681EC5EEA /* Build configuration list for PBXProject "FocusFaria" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3435DDA2687639586BF0B70 /* FariaFocus */,
+				E3435DDA2687639586BF0B70 /* FocusFaria */,
 			);
 		};
 /* End PBXProject section */
@@ -162,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9340A1640EB361E17F127645 /* FariaFocusApp.swift in Sources */,
+				9340A1640EB361E17F127645 /* FocusFariaApp.swift in Sources */,
 				2D12A9461CC6BB3EC4BC09FC /* ContentView.swift in Sources */,
 				CA3A33854C6C4C3663B9616F /* Storage.swift in Sources */,
 				84755408735D39716F45574B /* TodoStore.swift in Sources */,
@@ -367,7 +367,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5505F9AF814A7F0992DE2402 /* Build configuration list for PBXNativeTarget "FariaFocus" */ = {
+		5505F9AF814A7F0992DE2402 /* Build configuration list for PBXNativeTarget "FocusFaria" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C0DD1C3E4BFC124D878FE440 /* Debug */,
@@ -376,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7EF2517A8FE63F4681EC5EEA /* Build configuration list for PBXProject "FariaFocus" */ = {
+		7EF2517A8FE63F4681EC5EEA /* Build configuration list for PBXProject "FocusFaria" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				969595A508627F35A110362C /* Debug */,

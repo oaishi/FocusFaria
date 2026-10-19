@@ -1,4 +1,4 @@
-//  FariaFocusApp.swift
+//  FocusFariaApp.swift
 //  App entry point.
 
 import SwiftUI
@@ -20,7 +20,7 @@ final class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCent
 }
 
 @main
-struct FariaFocusApp: App {
+struct FocusFariaApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     @StateObject private var todoStore = TodoStore()
     @StateObject private var usage = UsageStore()

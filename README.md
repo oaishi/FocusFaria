@@ -24,10 +24,10 @@ It does three things:
 - Your normal **Apple ID**. That's it, no payment.
 
 ### Install (about 10 minutes)
-1. Unzip this folder and double-click **`FariaFocus.xcodeproj`**.
+1. Unzip this folder and double-click **`FocusFaria.xcodeproj`**.
 2. Open **`Config.xcconfig`** (left sidebar) and change `com.faria.focus` to something unique, e.g. `com.fariasmith2026.focus`.
 3. Xcode menu **Xcode › Settings › Accounts** → **+** → **Apple ID** → sign in.
-4. Click the blue **FariaFocus** project icon (top of sidebar) → target **FariaFocus** → **Signing & Capabilities** → tick **Automatically manage signing** → **Team**: choose *“Your Name (Personal Team)”*.
+4. Click the blue **FocusFaria** project icon (top of sidebar) → target **FocusFaria** → **Signing & Capabilities** → tick **Automatically manage signing** → **Team**: choose *“Your Name (Personal Team)”*.
 5. Plug in your iPhone, unlock it, tap **Trust This Computer**. Choose your iPhone at the top of Xcode (next to ▶).
 6. On the iPhone: **Settings › Privacy & Security › Developer Mode → On** (it restarts).
 7. Press **▶ Run** in Xcode.
@@ -63,9 +63,9 @@ The app walks you through this step by step with pictures on first launch (and a
 ### Customise
 | Want to… | Change… |
 |---|---|
-| Edit the quotes | `FariaFocus/NudgeScheduler.swift` → `quotes` |
+| Edit the quotes | `FocusFaria/NudgeScheduler.swift` → `quotes` |
 | Change the notification wording | `NudgeScheduler.swift` → `makeContent` |
-| Change the 90-second "continue" window | `FariaFocus/ScrollTracker.swift` → `continueWindow` |
+| Change the 90-second "continue" window | `FocusFaria/ScrollTracker.swift` → `continueWindow` |
 
 ### Troubleshooting
 | Problem | Fix |
@@ -113,8 +113,8 @@ If you stay in the app for 10 minutes, the reminder pops up with your message. I
 
 ## Files (Option A)
 ```
-FariaFocus/
-  FariaFocusApp.swift      app start
+FocusFaria/
+  FocusFariaApp.swift      app start
   ContentView.swift        the 3 tabs
   TodoStore / TodoListView     to-dos
   UsageStore / ScreenTimeView  tracked time
