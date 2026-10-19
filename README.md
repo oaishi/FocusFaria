@@ -1,4 +1,4 @@
-# FocusFaria 📵✨
+# <img src="assets/logo.png" alt="FocusFaria logo" height="80" align="center"> FocusFaria 📵✨
 
 A free iPhone app that nudges you off Instagram, TikTok and YouTube with your own to-dos.
 
